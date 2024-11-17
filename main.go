@@ -10,6 +10,7 @@ import (
 func main() {
 	cfg := config.LoadConfig()
 	db := config.Connect(cfg)
+
 	defer db.Close()
 	logger.Info("Starting Go application")
 	if err := api.StartServer(cfg, db); err != nil {

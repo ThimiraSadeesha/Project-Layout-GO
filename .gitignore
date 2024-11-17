@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Environment variables
+.env
+
+# Dependency directories (remove the comment if you're using vendoring)
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE and Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage.out
+
+# Temporary files
+tmp/
+temp/
+
+# Lock files (if any)
+*.lock
+
+# Other unwanted files
+*.pem
+*.key

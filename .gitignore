@@ -10,7 +10,7 @@
 *.out
 
 # Environment variables
-.env
+#.env
 
 # Dependency directories (remove the comment if you're using vendoring)
 vendor/

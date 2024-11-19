@@ -8,7 +8,8 @@ import (
 )
 
 func SetupRoutes(r *gin.Engine) {
-	product.SetupRoutes(r)
+	product.NewModule().RegisterRoutes(r)
+
 	shop.SetupRoutes(r)
 	user.SetupRoutes(r)
 }
